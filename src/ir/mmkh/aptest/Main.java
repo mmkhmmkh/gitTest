@@ -26,14 +26,14 @@ public class Main {
                     new FileInputStream("a.test")
             );
 
-            ToSerialize test2 = (ToSerialize)  a.readObject();
+            ToSerialize test3 = (ToSerialize)  a.readObject();
 
 
 
-            int c = test2.getC();
+            int c = test3.getC();
             System.out.println(c);
 
-            int b = test2.getB();
+            int b = test3.getB();
             System.out.println(b);
 
 
